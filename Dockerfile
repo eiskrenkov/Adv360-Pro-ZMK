@@ -5,6 +5,7 @@ WORKDIR /app
 COPY config/west.yml config/west.yml
 
 
+
 # West Init
 RUN west init -l config
 # West Update
